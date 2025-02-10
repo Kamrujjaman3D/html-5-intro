@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creat a Table</title>
+  <style>
+    caption {
+      text-align: center;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    .head-section {
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .Champion {
+      text-align: center;
+    }
+
+    tr,
+    td {
+      padding: 8px 15px;
+    }
+
+    tr,
+    th,
+    td {
+      border: 2px solid #010101;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Table Tennis Tournament</h2>
+  <caption>Tournament Schedule and Results</caption>
+  <table>
+    <thead>
+      <tr class="head-section">
+        <th>Round 1</th>
+        <th>Player A</th>
+        <th>Player B</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Match 1</td>
+        <td>John</td>
+        <td>Alice</td>
+      </tr>
+      <tr>
+        <td>Match 2</td>
+        <td>Mark</td>
+        <td>Sarah</td>
+      </tr>
+      <tr class="head-section">
+        <td>Round 2</td>
+        <td>Player C</td>
+        <td>player D</td>
+      </tr>
+      <tr>
+        <td>Match 3</td>
+        <td>Joni</td>
+        <td>Larry</td>
+      </tr>
+      <tr>
+        <td>Match 4</td>
+        <td>Maruf</td>
+        <td>Kelly</td>
+      </tr>
+      <tr class="head-section">
+        <td>Final</td>
+        <td>Winner of Match 3</td>
+        <td>Winner of Match 4</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Champion</td>
+        <td colspan="2" class="Champion">Joni</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
